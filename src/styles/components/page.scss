@@ -1,0 +1,50 @@
+.contentWrap{
+    display: flex;
+    justify-content: center;
+}
+.breadLink{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 50px;
+}
+
+.content{
+	/* Font & Text */
+	font-size: 18px;
+	line-height: 29.25px;
+	/* Color & Background */
+	background-attachment: scroll;
+	background-color: rgb(255, 255, 255);
+	color: rgb(38, 50, 56);
+	width: 960px;
+	margin-bottom: 100px;
+	padding: 60px 140px;
+	cursor: auto;
+
+
+	/* Effects */
+	text-overflow: clip;
+	word-wrap: break-word;
+    box-shadow: rgba(38, 50, 56, 0.07) 0px 7px 50px 0px;
+    
+
+	
+}
+
+.accord{
+	background: #f7f7f7;
+  border-radius: 4;
+  margin-bottom: 24;
+  border: 0;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px){
+.content{
+    font-size: 15px;
+    padding: 20px 45px;
+}
+
+
+}

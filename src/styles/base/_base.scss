@@ -1,0 +1,23 @@
+html{
+    font-size:62.5%;
+    
+}
+body{
+
+    font-size: 1.6rem;
+    
+
+}
+
+html,body,p,h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    cursor: pointer;
+}
+button:disabled{
+    cursor: default;
+}
+// .is-active{
+//     font-weight: bold;
+// }

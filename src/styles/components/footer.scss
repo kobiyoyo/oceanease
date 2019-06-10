@@ -1,0 +1,56 @@
+.footerWrap{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: #F8F8F8;
+    padding-top: 20px;
+    min-height: 200px;
+    width: 100%;
+}
+.Strtitle{
+    font-weight:bold;
+    font-size: 17px;
+}
+.paragraph{
+font-size: 13px;    
+}
+.footerIcon{
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+width: 20%;
+
+
+
+}
+.footerMenu{
+    display: flex;
+flex-direction: column;
+text-align: right;
+}
+ .Link{
+   color:grey;
+}
+
+
+.right{
+    font-size: 12px;
+}
+@media only screen and (max-width: 700px){
+ //footer 
+ .footerWrap{
+flex-direction: column;
+text-align: center;
+}
+.footerMenu{
+ 
+text-align:center;
+}
+.footerIcon{
+    padding-bottom: 20px;
+    align-content: center;
+
+    
+    }
+
+}    

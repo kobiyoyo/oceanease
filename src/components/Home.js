@@ -82,7 +82,7 @@ return(
       <p key="1">Ocean-Ease Ltd is a specialist ROV inspection company providing systems and personnel for the offshore oil & gas and marine industries.
       Our value driven, high quality and cost effective service offering is achieved by knowledgeable and experienced personnel utilising high quality ROV system and tooling.
       They understand the client’s requirements which in turn helps produce a very informative final report.</p>
-      <NavLink to='/services' key="2" exact={true}> <Button type="primary" size='large'>READ MORE </Button></NavLink>
+      <NavLink to='/about' key="2" exact={true}> <Button type="primary" size='large'>READ MORE </Button></NavLink>
       </QueueAnim>
       </div>
       </ScrollOverPack>
@@ -128,18 +128,15 @@ return(
        <div className="background-3">
        <ScrollOverPack always={false} playScale={0.3}  >
        <div>
-       <h1>
-       <Texty  
-       type='top'
-       mode='sync'
-       style={{fontSize:'25px'}}
-       > Ready To Discuss Your Project?  
-       </Texty>
+       <QueueAnim key="1" delay={400}  ease={['easeOutQuart', 'easeInOutQuart']}>
+       <h1 key="0">
+      Ready To Discuss Your Project?   
     </h1>
 
 
-           <p>There are many ways to contact us. You may drop us a line, give us a call or send an email, choose what suits you the most.</p>
-       <Button type="primary" size='large'><NavLink to='/contact' exact={true}><span style={{color:'white'}}>WORK WITH US</span></NavLink></Button>
+           <p key="1">There are many ways to contact us. You may drop us a line, give us a call or send an email, choose what suits you the most.</p>
+       <NavLink to='/contact' key="2" exact={true}> <Button  type="primary" size='large'>WORK WITH US </Button></NavLink>
+       </QueueAnim>
        </div>
        </ScrollOverPack>
        

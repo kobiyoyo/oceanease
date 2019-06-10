@@ -266,7 +266,7 @@ padding-top: 100px;
 
 
 //mobile
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
 //slides
 .homeSlide{
     height: 29rem;
@@ -302,6 +302,7 @@ padding-top: 100px;
         width: 100%;
         color: #F9F9FF;
         text-align: center;
+        font-size: 12px;
        
       
     }
@@ -330,6 +331,7 @@ padding-top: 100px;
     background: rgba(0,0, 0, 0.50);
     width: 100%;
     color: #F9F9FF;
+    font-size: 12px !important;
     text-align: center;
    
   
@@ -358,6 +360,7 @@ padding-top: 100px;
     width: 100%;
     color: #F9F9FF;
     text-align: center;
+    font-size: 12px !important;
    
   
 }

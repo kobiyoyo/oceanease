@@ -73,19 +73,16 @@ return(
        <div className="background-1">
        <ScrollOverPack always={false} playScale={0.3} >
        <div>
-       <h1>
-          <Texty  
-          type='right'
-          mode='sync'
-          style={{fontSize:'25px'}}
-          > Welcome to Ocean Ease
-          </Texty>
-       </h1>
        <QueueAnim key="1" delay={400}  ease={['easeOutQuart', 'easeInOutQuart']}>
-      <p key="0">Ocean-Ease Ltd is a specialist ROV inspection company providing systems and personnel for the offshore oil & gas and marine industries.
+       <h1 key="0">
+         Welcome to Ocean Ease
+        
+       </h1>
+     
+      <p key="1">Ocean-Ease Ltd is a specialist ROV inspection company providing systems and personnel for the offshore oil & gas and marine industries.
       Our value driven, high quality and cost effective service offering is achieved by knowledgeable and experienced personnel utilising high quality ROV system and tooling.
       They understand the client’s requirements which in turn helps produce a very informative final report.</p>
-      <Button key="1" type="primary" size='large'><NavLink to='/about' exact={true} ><span style={{color:'white'}}>READ MORE</span></NavLink> </Button>
+      <NavLink to='/services' key="2" exact={true}> <Button type="primary" size='large'>READ MORE </Button></NavLink>
       </QueueAnim>
       </div>
       </ScrollOverPack>
@@ -101,17 +98,14 @@ return(
 
        <div className="background-2">
        <ScrollOverPack always={false} playScale={0.3}  >
-       <div style={{textAlign:'left'}}>
-       <h1>
-       <Texty  
-       type='right'
-       mode='sync'
-       style={{fontSize:'25px'}}
-       > Why Ocean-Ease Ltd?
-       </Texty>
+       <div>
+       <QueueAnim key="1" delay={400}  ease={['easeOutQuart', 'easeInOutQuart']}>
+       <h1 key="1">
+     Why Ocean-Ease Ltd?
+     
     </h1>
-    <QueueAnim key="1" delay={400}  ease={['easeOutQuart', 'easeInOutQuart']}>
-<ul key="0">
+   
+<ul key="2">
 
     <li> Experienced & competent personnel</li>
     <li>  ROV owned by the company and readily available in Nigeria</li>
@@ -120,7 +114,7 @@ return(
     <li>  Our ROV is efficient to mobilise, can be manually deployed from small vessels, platforms or large FPSOs (cost effective)</li>
     
     </ul>
-      <Button key="1" type="primary" size='large'><NavLink to='/services' exact={true}><span style={{color:'white'}}>READ MORE</span></NavLink> </Button>
+     <NavLink to='/services' key="3" exact={true}> <Button  type="primary" size='large'>READ MORE </Button></NavLink>
       </QueueAnim>
       </div>
       </ScrollOverPack>

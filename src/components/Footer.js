@@ -10,7 +10,7 @@ const Footer = ()=>(
 <div className='footerWrap'>
 <div>
     <Paragraph className='paragraph'><span className='Strtitle'>Ocean-Ease LTD</span><br/>
-    63, OGUNLANA DRIVE  SURULERE, LAGOS.<br/>hello@oceanease.com.ng  <br/> +2348038592166 
+    63, OGUNLANA DRIVE  SURULERE, LAGOS.<br/>info@oceanease.com.ng  <br/> +2348038592166 
     </Paragraph>
 </div>
 

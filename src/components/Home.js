@@ -46,8 +46,8 @@ return(
                   <div className="page1-box">
                   <div className="page1-image" >
                   <img src="https://gw.alipayobjects.com/zos/rmsportal/RpJIQitGbSCHwLMimybX.svg" alt="img" />
-                  </div><h3>Hull & Structural Inspection </h3>
-                  <p>General visual inspections (GVIs) and close visual inspections (CVI) using high definition cameras</p></div>
+                  </div><h3>Non-Destructive Testing</h3>
+                  <p>Ultrasonic wall thickness, <b/>Flooded member detection</p></div>
             </li>
             <li className="listIcon" key='c'>
                   <div className="page1-box">

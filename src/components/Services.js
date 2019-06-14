@@ -24,7 +24,7 @@ class Services extends React.Component {
       <div className='content' >
  
       <Title  key="0">Services</Title>
-      <p  key="1">Ocean-Ease ltd provides an extensive portfolio of professional underwater inspection and intervention services which include:</p> 
+      <p  key="1">Ocean-Ease ltd provides an extensive portfolio of professional ROV underwater inspection and intervention services which include:</p> 
 
       
       <Collapse
@@ -42,10 +42,14 @@ class Services extends React.Component {
 
       <Panel header="Asset Integrity Inspections" key="1">
         <p>•	General visual inspections (GVIs) and close visual inspections (CVI) using high definition cameras</p>
+        <p>• CP Survey</p>
+        <p>• Non destructive Tests</p>
+        <p>• Photogrametry / Laser scan</p>
+        <p>• Coating / Marine growth assesment</p>
       </Panel>
 
       <Panel header="Hull & Structural Inspection" key="2">
-        <p>•	General visual inspections (GVIs) and close visual inspections (CVI) using high definition cameras</p>
+        <p>•	NDT</p>
       </Panel>
       
         <Panel header="Inspection for class" key="3">
@@ -93,21 +97,6 @@ class Services extends React.Component {
   <p></p>
 </Panel>
     </Collapse>
-
-      <h4  key="5" style={{marginTop:'20px'}}>Why Ocean-Ease Ltd?</h4>
-      <ul  key="6">
-      
-      
-      <li>	Experienced & competent personnel</li>
-      <li>	Our ROV is efficient to mobilise, can be manually deployed from small vessels, platforms or large FPSOs (cost effective)</li>
-      <li>	Our ROV systems can be deployed extremely quickly to enable effective turnaround on must-do jobs.</li>
-      <li>	Nigerian  owned and operated company – Local content</li>
-      <li>	ROV owned by the company and readily available in Nigeria</li>
-      <li>	Efficient ROV suitable for harsh operational conditions (strong currents and low visibility).</li>
-      <li>	Our final report is clear and concise, giving the customer a full account of events, supported by video and/or still pictures of anomalies found.</li>
-      </ul>
-
-
 
        </div>
        </div>

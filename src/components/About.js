@@ -30,6 +30,19 @@ Our ROV systems are significantly cheaper to mobilise and maintain while on proj
 For further details of what we can provide, please contact us. Ocean-ease ltd is a company that wishes to help our clients achieve their aims in the best possible way.
  This being the best results while reducing costs and most importantly, supplying the greatest safe systems of work.
 </p>
+<p  key="5" style={{marginTop:'20px'}}>Why Ocean-Ease Ltd?</p>
+<ul  key="6">
+
+
+<li><p>	Experienced & competent personnel</p></li>
+<li><p>		Our ROV is efficient to mobilise, can be manually deployed from small vessels, platforms or large FPSOs (cost effective) </p></li>
+<li><p>		Our ROV systems can be deployed extremely quickly to enable effective turnaround on must-do jobs.</p></li>
+<li><p>		Nigerian  owned and operated company – Local content</p></li>
+<li><p>		ROV owned by the company and readily available in Nigeria</p></li>
+<li><p>		Efficient ROV suitable for harsh operational conditions (strong currents and low visibility).</p></li>
+<li><p>		Our final report is clear and concise, giving the customer a full account of events, supported by video and/or still pictures of anomalies found.</p></li>
+</ul>
+
 
  </div>
  </div>

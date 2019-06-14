@@ -31,7 +31,7 @@ export default class Example extends React.Component {
     return (
       <div>
         <Navbar  light expand="md" className='thenav'>
-          <NavbarBrand href="/"><div><img  className="headerlogo"  src={require('../images/blueguy.png')}  alt='one'/><span className='logoTitle'>Ocean Ease</span></div></NavbarBrand>
+          <NavbarBrand href="/"><div className ='logoContainer'><img  className="headerlogo"  src={require('../images/blueguy.png')}  alt='one'/></div></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>

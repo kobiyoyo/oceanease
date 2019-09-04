@@ -2,7 +2,7 @@
 
 //slides
 .homeSlide{
-    height: 63rem;
+    height: 73rem;
 }
 Button{
     cursor: pointer;
@@ -262,23 +262,29 @@ padding-top: 100px;
 
 
 
-
-
-
 //mobile
-@media only screen and (max-width: 800px){
-//slides
-.homeSlide{
-    height: 29rem;
-}
-
-
+@media only screen and (max-width: 600px){
+    //slides
+    .homeSlide{
+        height: 26rem;
+    }
 
 //carousel
 .ant-carousel .slick-slide {
     height:250px;
 
   }
+    
+}    
+
+
+
+//mobile
+@media only screen and (max-width: 800px){
+//slides
+
+
+
 
     //section1
     .page1-box-wrapper{

@@ -17,14 +17,13 @@ class Home extends React.Component{
 return(
     <div style={{ margin:"0"}} >
     <Carousel autoplay effect="fade" easing='linear'>
-    <div>
-      <img   className="homeSlide" src={require('../images/1.jpg')}   alt='one'/>
-    </div>
+   
     <div>
     <img  className="homeSlide"  src={require('../images/3.jpg')}  alt='one'/>
     </div>
+   
     <div>
-    <img  className="homeSlide"  src={require('../images/10.jpg')} alt='one'/>
+    <img  className="homeSlide"  src={require('../images/24.jpg')} alt='one'/>
     </div>
   </Carousel>
   

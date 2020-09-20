@@ -1,78 +1,45 @@
 <br />
 <p align="center">
-  <h1 align="center"> oceanease APP</h1>
+  <h1 align="center"> OceanEase App</h1>
  
   <p align="center">
-    A Ruby on Rails application
+    A React application
     <br />
     <br />
     <a href="https://stormy-ravine-81598.herokuapp.com/">View Demo</a>
     ·
-    <a href="https://github.com/kobiyoyo/oceaneaseApp/issues">Report Bug</a>
+    <a href="https://github.com/kobiyoyo/oceaneaseapp/issues">Report Bug</a>
     ·
-    <a href="https://github.com/kobiyoyo/oceaneaseApp/issues">Request Feature</a>
+    <a href="https://github.com/kobiyoyo/oceaneaseapp/issues">Request Feature</a>
   </p>
-  <img src="app/assets/images/screenshot.png" alt="facebook-project">
+  <img src="src/images/screenshot.png" alt="facebook-project">
 </p>
 
 
 ## Description
-This is an app that is used for creating different groups and adding your tasks to these groups, the tasks include hours spent, which is a great tool to track and organize your time.
+Ocean-Ease Ltd is a specialist ROV inspection company providing systems and personnel for the offshore oil & gas and marine industries.
 
 
 ## Built With
-- Ruby 
-- Ruby on Rails
+- Javascript
+- React
 - Bootstrap 4
-- Bullet
-- Rubocop
-- PostgreSQL
-
-## Features
-- A user can signup/login
-- A user can create, delete, edit groups of tasks.
-- A user can create, delete, edit tasks.
-
-## Future features
-* User can create a timer for each task.
-* Users can add description to task.
-* Logout after 5 minutes of inactivity
-
-
-## Environment
-- Ruby on Rails version 6.0
-- [Bootstrap-sass](https://www.rubydoc.info/gems/bootstrap-sass/3.3.6) is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications version 3.3.7
-- Puma: A Ruby Web Server Built For Concurrency version '3.9.1'
+- Sass
 
 ## Getting started
-> To get started with the app, clone the repo and then install the needed gems:
+> To get started with the app, clone the repo and then install the needed dependencies:
 
 ```
-$ bundle install --without production
+$ npm install
 ```
 
-> Next,create & migrate the database:
-```
-$ rails db:create
-
-$ rails db:migrate
-```
 
 > Run the app in a local server:
 
 ```
-$ rails server
+$ yarn dev-server
 ```
-> Finally, run the test suite to verify that everything is working correctly:
 
-```
-$ rspec
-```
-> You can then drop into rails console to explore the models
-
-```sh
-$  rails c
-```
 ## Live version
 
 [Live](https://oceanease.com.ng/)

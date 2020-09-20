@@ -17,8 +17,7 @@
 
 
 ## Description
-Ocean-Ease Ltd is a specialist ROV inspection company providing systems and personnel for the offshore oil & gas and marine industries.
-
+This app is intended to showcase, Ocean-ease ltd  a full-service, Underwater ROV Inspection Company, providing innovative and proven technical services to the offshore oil & gas and Maritime Industries. Ocean-ease ltd is a company founded by ROV and offshore professionals from a need to provide a safe and cost-effective underwater inspection solutions to the offshore oil & gas / marine customers and clients. Our services use the latest innovative Mini ROV technologies as we are innovators in the use of Mini ROVs.
 
 ## Built With
 - Javascript
